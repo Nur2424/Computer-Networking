@@ -1,4 +1,3 @@
-
 Problem Summary
 
 We have:
@@ -88,18 +87,33 @@ No. Carefully:
 
 ✅ This is called end-to-end principle.
 
-⸻
+---------------------------------------------------------------------------------------------------------------------
 
-Summary Table
+🪐 Given setup (translated to networking terms)
 
-Feature	Protocol Action
-Deliver to correct app	Include destination port
-Reply / return address	Include source port
-Network core involvement	None (end-to-end only)
+| Planet Analogy | Networking Equivalent |
+|----------------|------------------------|
+| Each house has a unique address | Each host has a unique IP address |
+| Each family has 6 members | Each host runs 6 application processes |
+| Each family member has a unique name within the house | Each process has a unique port number on that host |
+| Mail service delivers envelopes between houses | Network layer delivers packets between hosts |
+| Delegate collects/distributes letters within the family | Transport layer demultiplexes/multiplexes data to/from processes |
+| The envelope shows only the destination house address | The network layer header contains only the destination IP address |
 
 
-⸻
 
-If you want, I can draw a simple diagram showing headers and flow for send & receive, which makes this much easier to visualize than just text.
 
-Do you want me to do that?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
